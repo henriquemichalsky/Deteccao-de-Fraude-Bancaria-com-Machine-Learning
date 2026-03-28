@@ -53,9 +53,8 @@ em cartões de crédito, utilizando Random Forest com balanceamento SMOTE.
 
 ## 📁 Estrutura do Projeto
 
-├── Projeto1.ipynb        # Notebook principal
-├── README.md
-└── images/               # Gráficos gerados
+├── Projeto1.ipynb        
+└── images/               
     ├── class_distribution.png
     ├── correlation_matrix.png
     ├── media_features.png
