@@ -35,9 +35,9 @@ O volume massivo de transações e o extremo desbalanceamento entre classes (fra
 - `Amount` e `Time` foram escaladas para melhorar o desempenho do modelo
 - Algumas variáveis, como **V14**, **V10**, **V17** e **V4**, mostraram maior relevância para separar fraudes de transações legítimas
 
-![Distribuição de Classes](images/class_distribution.jpg)
-![Correlação entre Variáveis](images/correlation_matrix.jpg)
-![Média das Features por Classe](images/media_features.jpg)
+![Distribuição de Classes](images/class_distribution.png)
+![Correlação entre Variáveis](images/correlation_matrix.png)
+![Média das Features por Classe](images/media_features.png)
 
 ## 🤖 Modelagem
 
