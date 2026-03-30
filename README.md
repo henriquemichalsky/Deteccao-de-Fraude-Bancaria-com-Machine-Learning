@@ -56,9 +56,12 @@ O volume massivo de transações e o extremo desbalanceamento entre classes (fra
 | Recall (fraude) | **72%** |
 | F1-Score | **0.83** |
 
-![Matriz de Confusão](images/confusion_matrix.jpg)
-![Curva ROC](images/roc_curve.jpg)
-![Feature Importance](images/feature_importance.jpg)
+![Distribuição de Classes](class_distribution-4.jpg)
+![Correlação entre Variáveis](correlation_matrix-6.jpg)
+![Média das Features por Classe](media_features-8.jpg)
+![Matriz de Confusão](confusion_matrix-5.jpg)
+![Curva ROC](roc_curve-9.jpg)
+![Feature Importance](feature_importance-7.jpg)
 
 ## ✅ Conclusões
 - O modelo **Random Forest com SMOTE** apresentou ótimo desempenho geral, com **AUC de 0.9293**
