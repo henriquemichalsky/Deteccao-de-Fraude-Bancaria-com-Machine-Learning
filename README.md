@@ -11,7 +11,7 @@ O volume massivo de transações e o extremo desbalanceamento entre classes (fra
 ## 📦 Coleta de Dados
 - **Fonte:** Kaggle — Credit Card Fraud Detection
 - **Arquivo:** `creditcard.csv`
-- **Registros:** 284.807 transações | **Variáveis:** 30 preditoras + 1 target
+- **Registros:** 284.807 transações | **Features:** 30 preditoras + 1 target
 - **Valores nulos:** Nenhum | **Duplicatas:** Nenhuma
 - **Desbalanceamento:** apenas **0,17%** das transações são fraudulentas
 
@@ -35,9 +35,9 @@ O volume massivo de transações e o extremo desbalanceamento entre classes (fra
 - `Amount` e `Time` foram escaladas para melhorar o desempenho do modelo
 - Algumas variáveis, como **V14**, **V10**, **V17** e **V4**, mostraram maior relevância para separar fraudes de transações legítimas
 
-![Distribuição de Classes](images/class_distribution.jpg)
-![Correlação entre Variáveis](images/correlation_matrix.jpg)
-![Média das Features por Classe](images/media_features.jpg)
+![Distribuição de Classes](class_distribution-4.jpg)
+![Correlação entre Variáveis](correlation_matrix-6.jpg)
+![Média das Features por Classe](media_features-8.jpg)
 
 ## 🤖 Modelagem
 
@@ -48,17 +48,14 @@ O volume massivo de transações e o extremo desbalanceamento entre classes (fra
 | Avaliação ROC | **AUC = 0.9293** |
 | Matriz de Confusão | 56.650 verdadeiros negativos e 68 verdadeiros positivos |
 
-| Métrica | Resultado |
+| Métrica | Valor |
 |---|---|
 | AUC-ROC | **0.9293** |
-| Acurácia | **99,97%** |
-| Precisão (fraude) | **99%** |
-| Recall (fraude) | **72%** |
-| F1-Score | **0.83** |
+| Acurácia Geral | **99,97%** |
+| Precisão (Fraude) | **99%** |
+| Recall (Fraude) | **72%** |
+| F1-Score (Fraude) | **0.83** |
 
-![Distribuição de Classes](class_distribution-4.jpg)
-![Correlação entre Variáveis](correlation_matrix-6.jpg)
-![Média das Features por Classe](media_features-8.jpg)
 ![Matriz de Confusão](confusion_matrix-5.jpg)
 ![Curva ROC](roc_curve-9.jpg)
 ![Feature Importance](feature_importance-7.jpg)
